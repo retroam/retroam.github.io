@@ -1,0 +1,59 @@
+.className{
+margin:auto;
+margin-top:50px;
+width:400px;
+text-align: center;
+font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+font-size: 800%;
+/* border:1px solid; */
+}
+
+
+.detail {
+display: none;
+width:400px;
+	margin:0px auto;
+	text-align:left;
+	padding:50px;
+	padding-top:25px;
+	padding-bottom:25px;
+	background-color:#eee;
+font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+line-height:120%;
+font-size:90%;
+text-align:left;
+
+color:#000000;
+}
+
+h1{
+font-size:120%;
+margin:0px;
+}
+
+.centered{
+margin-left:auto;
+margin-right:auto;
+}
+
+a{
+color:#2166ac;
+text-decoration:none;
+}
+
+a.letterLink{
+color:black;
+}
+
+a.letterLink:hover{
+color:#2166ac;
+cursor:default;
+}
+
+a:hover{
+color:#053061;
+}
+
+p{
+font-size:11;
+}
