@@ -1,0 +1,115 @@
+{
+ "name": "quals",
+ "children": [
+     {"name": "education",
+      "children": [
+          {"name": "B.S",
+           "children": [
+               {"name": "high distinction"},
+               {"name": "tau beta pi"},
+               {"name": "thesis",
+                 "children": [
+                     {"name": "tissue engineering applications of S1P"}
+                     ] 
+               }
+               ]
+          },
+          {"name": "Ph.D",
+           "children": [
+               {"name": "specialization",
+                 "children":[
+                     {"name": "systems biology"},
+                     {"name": "cardiac disease"},
+                     {"name": "calcium signaling"},
+                     {"name": "flourescent microscopy"}
+                     ] 
+               },
+               {"name": "analysis",
+                 "children":[
+                     {"name": "predictive modeling"},
+                     {"name": "experimental design"},
+                     {"name": "signal processing"}
+                     ] 
+               }
+               ]
+              
+          }
+          ] 
+     },
+     {"name": "experience",
+     "children": [
+         {"name": "Munch"},
+         {"name": "Civis Analytics"},
+         {"name": "Insight Data Science"},
+         {"name": "Center for Open Science"}
+     ]
+     },
+     {"name": "skills",
+     "children": [
+         {"name": "apps",
+          "children":[
+               {"name": "code",
+                   "children":[
+                   {"name": "python",
+                     "children": [
+                         {"name": "sci-kit learn"},
+                         {"name": "pandas"},
+                         {"name": "numpy"},
+                         {"name": "nltk"}
+                     ]
+                   },
+                   {"name": "matlab"},
+                   {"name": "netlogo"},
+                   {"name": "javascript",
+                    "children": [
+                        {"name": "node"},
+                        {"name": "d3"}
+                    ]
+                   }
+                   ]
+               },
+               {"name": "design",
+                 "children": [
+                     {"name": "inkscape"},
+                     {"name": "gimp"}
+                 ]
+
+               },
+               {"name": "presentation",
+                "children": [
+                    {"name": "tableau"},
+                    {"name": "bokeh"}
+                ]
+               },
+               {"name": "database",
+                "children": [
+                    {"name": "redshift"},
+                    {"name": "mysql"},
+                    {"name": "mongodb"}
+                ]
+               }
+
+          ]
+         },
+          {"name": "linguistics",
+          "children":[
+               {"name": "english"},
+               {"name": "fante"},
+               {"name": "twi"}
+          ]
+          }
+
+     ]
+     },
+     {"name": "service",
+      "children": [
+          {"name": "graduate student consulting club"},
+          {"name": "student entrepreneurs for economic development"},
+          {"name": "black graduate and professional student organization"},
+          {"name": "huskey organizing committee"},
+          {"name": "resident staff"}
+      ]
+     }
+
+ ]
+}
