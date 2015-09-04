@@ -1,60 +1,175 @@
-.className{
-margin:auto;
-margin-top:50px;
-width:400px;
-text-align: center;
-font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-font-size: 800%;
-/* border:1px solid; */
+body {
+ max-width: 960px;
+ min-width: 960px;
+ width: 960px;
+ padding: 12px 20px 12px 20px;
+ color: #000;
+ background: #fff;
 }
 
+/* Typeface and Text Size */
+body {
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ font-size: 0.7em;
+ line-height: 1.3em;
+}
+p { margin: 0px 0px 12px 0px; }
+h1 {
+ font-size: 1.25em;
+ font-weight: bold;
+ margin: 0 0 15px 0;
+}
+h6 { /* h6 is special... */
+ font-size: 1.5em;
+ font-weight: normal;
+ font-variant: small-caps;
+ letter-spacing: 1px;
+ color: #777;
+ line-height: 0.60em;
+ margin: 0px 0px 15px 0px;
+}
+h2, h3, h4, h5 { font-size: 1em; font-weight: bold; }
+h2 { margin: 10px 0px 8px 0px }
+h3, h4, h5 { margin: 0px; }
+br.space { line-height: 0.25em; }
 
-.detail {
-display: none;
-width:400px;
-	margin:0px auto;
-	text-align:left;
-	padding:50px;
-	padding-top:25px;
-	padding-bottom:25px;
-	background-color:#eee;
-font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-line-height:120%;
-font-size:90%;
-text-align:left;
+/* Hyperlinks */
+a, a:visited, a:hover { color: #000; text-decoration: none; }
+a.nav, a.nav:visited { color: #888; font-weight: normal; }
+a:hover, a.nav:hover { color: #33f; }
 
-color:#000000;
+/* Tables */
+table, tr, td { margin: 0; padding: 0; }
+td { padding: 0px 10px 0px 0px; }
+tr.visited td { color: #888; }
+tr.visited a { color: #888; }
+
+/* Lists */
+ul { margin: 0; padding: 5px 0px 7px 20px; }
+li { margin-bottom: 2px; }
+
+/* Page Layout */
+#main { margin-left: 230px; }
+#info { float: left; width: 210px; }
+#info td { padding: 0px 0px 4px 0px; }
+#info div { margin-top: 25px; }
+#name {
+ font-variant: small-caps;
+ font-size: 1.5em;
+ margin-top: -1px;
+ letter-spacing: 0.065em;
+}
+.announce {
+ width: 190px;
+ padding: 0px 0px 0px 7px;
+ border: dashed 1px #ccc;
+}
+.more {
+ width: 100%;
+ font-weight: bold;
+ text-align: right;
 }
 
-h1{
-font-size:120%;
-margin:0px;
+/* Project Entries */
+.entry {
+ clear: both;
+ height: 120px;
+ margin-bottom: 10px;
+ overflow: hidden;
+}
+.entry img {
+ float: left;
+ border: 1px solid #fff;
+ margin: 2px 7px 5px 0px;
+ padding: 0px;
+}
+.entry a:hover img {
+ border: 1px solid #33f;
+}
+.entry .links {
+ margin: 5px 0px 0px 0px;
+}
+.entry .main {
+ padding-top: 1px;
 }
 
-.centered{
-margin-left:auto;
-margin-right:auto;
+/* Curriculum Vitae */
+#vita h6,
+#vita .body {
+ margin-left: 135px;
+}
+#vita .margin {
+ float: left;
+ width: 115px;
+ margin-right: 15px;
+ padding-left: 5px;
+ text-align: right;
 }
 
-a{
-color:#2166ac;
-text-decoration:none;
+/* Bio */
+#bio .body {
+ width: 495px;
+}
+.right {
+ float: right;
 }
 
-a.letterLink{
-color:black;
+/* Contact */
+#contact .body {
+ width: 495px;
+}
+#contact .body a {
+ font-weight: bold;
 }
 
-a.letterLink:hover{
-color:#2166ac;
-cursor:default;
+/*skills d3 rendering*/
+ resume {
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
 }
 
-a:hover{
-color:#053061;
+/* IE6 work-around hack */
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html #vita .body {
+ height: 1%;
+ margin-left: 0;
+}
+* html #info {
+ margin-right: 15px;
+}
+* html #main {
+ width: 721px;
+ height: 1%;
+ margin-left: 0;
+}
+* html .entry {
+ height: 65px;
 }
 
-p{
-font-size:11;
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
 }
 
+.node text {
+  font-size: 11px;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.hint {
+  position: absolute;
+  right: 0;
+  width: 1280px;
+  font-size: 12px;
+  color: #999;
+}
+/* End hide from IE5-mac */
