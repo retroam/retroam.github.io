@@ -1,20 +1,24 @@
-import os
-from flask import Flask
 from flask import render_template
+from flask import Flask
+import os
+
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-@app.route('/home', methods=['GET'])
+@app.route("/")
+@app.route("/about")
 def home():
-    return render_template('home.html',
-                            title='Home')
+    return render_template('about.html')
 
-@app.route('/resume', methods=['GET'])
+@app.route("/resume")
+def skills():
+    return render_template('skills.html')
+
+@app.route("/cv")
 def resume():
-    return render_template('resume.html',
-                            title='Resume')
-                            
-if __name__ == "__main__":
-    app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)), debug=True)
-                            
+    return render_template('cv.html')
+
+    
+    
+    
+app.run(host=os.getenv('IP', '0.0.0.0'), port=int(os.getenv('PORT', 8080)))
