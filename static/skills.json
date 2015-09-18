@@ -1,28 +1,12 @@
-{
- "name": "quals",
- "children": [
-     {"name": "education",
-      "children": [
-          {"name": "B.S",
-           "children": [
-               {"name": "high distinction"},
-               {"name": "tau beta pi"},
-               {"name": "thesis",
-                 "children": [
-                     {"name": "tissue engineering applications of S1P"}
-                     ] 
-               }
-               ]
-          },
-          {"name": "Ph.D",
-           "children": [
-               {"name": "specialization",
+{"name": "skills",
+     "children": [
+                 {"name": "specialization",
                  "children":[
                      {"name": "systems biology"},
                      {"name": "cardiac disease"},
                      {"name": "calcium signaling"},
                      {"name": "flourescent microscopy"}
-                     ] 
+                     ]
                },
                {"name": "analysis",
                  "children":[
@@ -30,22 +14,7 @@
                      {"name": "experimental design"},
                      {"name": "signal processing"}
                      ] 
-               }
-               ]
-              
-          }
-          ] 
-     },
-     {"name": "experience",
-     "children": [
-         {"name": "Munch"},
-         {"name": "Civis Analytics"},
-         {"name": "Insight Data Science"},
-         {"name": "Center for Open Science"}
-     ]
-     },
-     {"name": "skills",
-     "children": [
+               },
          {"name": "apps",
           "children":[
                {"name": "code",
@@ -100,16 +69,4 @@
           }
 
      ]
-     },
-     {"name": "service",
-      "children": [
-          {"name": "graduate student consulting club"},
-          {"name": "student entrepreneurs for economic development"},
-          {"name": "black graduate and professional student organization"},
-          {"name": "huskey research symposium organizing committee"},
-          {"name": "resident staff"}
-      ]
      }
-
- ]
-}
