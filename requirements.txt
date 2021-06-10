@@ -1,4 +1,4 @@
-Django==1.7.1
+Django==2.2.24
 Flask==1.0
 FormEncode==1.2.6
 Jinja2==2.7.2
