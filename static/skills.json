@@ -24,11 +24,15 @@
                          {"name": "sci-kit learn"},
                          {"name": "pandas"},
                          {"name": "numpy"},
+                         {"name": "pytorch"},
+                         {"name": "pyspark"},
                          {"name": "nltk"}
                      ]
                    },
+                   {"name": "sql"},
+                   {"name": "r"},
+                   {"name": "golang"},
                    {"name": "matlab"},
-                   {"name": "netlogo"},
                    {"name": "javascript",
                     "children": [
                         {"name": "node"},
@@ -52,9 +56,19 @@
                },
                {"name": "database",
                 "children": [
+                    {"name": "snowflake"},
                     {"name": "redshift"},
                     {"name": "mysql"},
                     {"name": "mongodb"}
+                ]
+               },
+               {"name": "tools",
+                "children": [
+                    {"name": "dbt"},
+                    {"name": "terraform"},
+                    {"name": "airflow"},
+                    {"name": "docker"},
+                    {"name": "flink"}
                 ]
                }
 

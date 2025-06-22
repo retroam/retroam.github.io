@@ -83,6 +83,11 @@ li { margin-bottom: 2px; }
  margin: 2px 7px 5px 0px;
  padding: 0px;
 }
+.entry.project img {
+ width: 120px;
+ height: 90px;
+ object-fit: cover;
+}
 .entry a:hover img {
  border: 1px solid #33f;
 }
