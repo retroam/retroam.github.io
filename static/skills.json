@@ -5,7 +5,10 @@
                      {"name": "systems biology"},
                      {"name": "cardiac disease"},
                      {"name": "calcium signaling"},
-                     {"name": "flourescent microscopy"}
+                     {"name": "flourescent microscopy"},
+                     {"name": "fraud detection"},
+                     {"name": "NLP/LLMs"},
+                     {"name": "cyber insurance"}
                      ]
                },
                {"name": "analysis",
@@ -13,7 +16,7 @@
                      {"name": "predictive modeling"},
                      {"name": "experimental design"},
                      {"name": "signal processing"}
-                     ] 
+                     ]
                },
          {"name": "apps",
           "children":[
@@ -38,7 +41,8 @@
                         {"name": "node"},
                         {"name": "d3"}
                     ]
-                   }
+                   },
+                   {"name": "xgboost"}
                    ]
                },
                {"name": "design",
@@ -51,15 +55,14 @@
                {"name": "presentation",
                 "children": [
                     {"name": "tableau"},
-                    {"name": "bokeh"}
+                    {"name": "bokeh"},
+                    {"name": "mode analytics"}
                 ]
                },
                {"name": "database",
                 "children": [
                     {"name": "snowflake"},
-                    {"name": "redshift"},
-                    {"name": "mysql"},
-                    {"name": "mongodb"}
+                    {"name": "redshift"}
                 ]
                },
                {"name": "tools",
@@ -68,7 +71,9 @@
                     {"name": "terraform"},
                     {"name": "airflow"},
                     {"name": "docker"},
-                    {"name": "flink"}
+                    {"name": "kubernetes"},
+                    {"name": "flink"},
+                    {"name": "fivetran"}
                 ]
                }
 
