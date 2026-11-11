@@ -15,7 +15,10 @@
                  "children":[
                      {"name": "predictive modeling"},
                      {"name": "experimental design"},
-                     {"name": "signal processing"}
+                     {"name": "signal processing"},
+                     {"name": "causal inference"},
+                     {"name": "double machine learning"},
+                     {"name": "a/b testing"}
                      ]
                },
          {"name": "apps",
@@ -56,7 +59,8 @@
                 "children": [
                     {"name": "tableau"},
                     {"name": "bokeh"},
-                    {"name": "mode analytics"}
+                    {"name": "mode analytics"},
+                    {"name": "streamlit"}
                 ]
                },
                {"name": "database",
@@ -73,7 +77,19 @@
                     {"name": "docker"},
                     {"name": "kubernetes"},
                     {"name": "flink"},
-                    {"name": "fivetran"}
+                    {"name": "fivetran"},
+                    {"name": "spark"},
+                    {"name": "aws"}
+                ]
+               },
+               {"name": "ai evals",
+                "children": [
+                    {"name": "inspect"},
+                    {"name": "llm-as-judge"},
+                    {"name": "agent evals"},
+                    {"name": "adversarial testing"},
+                    {"name": "biosecurity"},
+                    {"name": "synthesis screening"}
                 ]
                }
 
