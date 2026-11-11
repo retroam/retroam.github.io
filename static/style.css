@@ -88,6 +88,13 @@ li { margin-bottom: 2px; }
  height: 90px;
  object-fit: cover;
 }
+.entry.noimg,
+.entry.intro {
+ height: auto;
+ min-height: 0;
+ overflow: visible;
+ margin-bottom: 16px;
+}
 .entry a:hover img {
  border: 1px solid #33f;
 }

@@ -1,6 +1,6 @@
 var m = [20, 120, 20, 120],
     w = 1200 - m[1] - m[3],
-    h = 680 - m[0] - m[2],
+    h = 1100 - m[0] - m[2],
     i = 0,
     root;
 
@@ -38,6 +38,7 @@ d3.json("./static/skills.json", function(error, json) {
     toggle(root.children[2].children[0]);
     toggle(root.children[2].children[0].children[0]);
     toggle(root.children[2].children[0].children[0].children[0]);
+    toggle(root.children[2].children[5]);
     toggle(root.children[3]);
     toggle(root.children[3].children[1]);
 
